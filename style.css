@@ -4,7 +4,12 @@ body{
 span{
       color:orange;
 }
-section{
+.top-banner{
+      display: flex;
+      background-image: url(images/top-banner.png);
+      background-repeat: no-repeat;
+}
+.middle-banner{
       display: flex;
 }
 h1{
@@ -12,6 +17,7 @@ h1{
 }
 .half-width img{
       width: 100%;
+      
 }
 .half-width{
       width: 50%;
@@ -21,6 +27,30 @@ h1{
       text-decoration: none;
       background-image: linear-gradient(tomato, orange);
       padding: 7px     30px;
-      color: aliceblue;
+      color: white;
       border-radius: 5px;
 }
+.title{
+color: orange;
+
+}
+.last-banner{
+display: flex;
+margin-bottom: 100px;
+
+}
+.width{
+width: 50%;
+padding-left: 5%;
+text-align: justify;
+border: 2px solid teal;
+box-shadow: 20px;
+}
+footer{
+      text-align: center;
+      color: grey;
+}
+
+
+
+
